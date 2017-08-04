@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 10px;
+    width: 400px;
+    height: 176px;
+
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.urlInput{
+  width: 150px;
+}
+
+.qrcode{
+  width: 176px;
+  height: 176px;
+}
+.buttonBox{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonBox button{
+  width: 40%;
+  border: 0;
+  outline: 0;
+  border-radius: 2px;
+  padding: 5px 0;
+  margin: 0 5px;
+background-color: #d1d1d1;
+}
+#updateBtn{
+  background-color: #13baf7;
+  color: #fff;
+}
+#updateBtn:active{
+  transition: all 0.5s;
+  background-color: #13a2f7;
+}
+#resetBtn{
+  color: #ffffff
+}
+
+#resetBtn:active{
+  transition: all 0.5s;
+  background-color: #aaaaaa;
+}
+
+.infoUrl{
+  margin-top: 10px;
+}
+.codeInfo{
+  padding: 0 0 0 10px;
+}
